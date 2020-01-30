@@ -1,0 +1,29 @@
+{
+  "R": {
+    "Version": "3.6.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      },
+      {
+        "Name": "INLA",
+        "URL": "https://inla.r-inla-download.org/R/stable"
+      }
+    ]
+  },
+  "Packages": {
+    "renv": {
+      "Package": "renv",
+      "Version": "0.9.2-30",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "renv",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "master",
+      "RemoteSha": "77bbb94cc7e8b15b92e88ccef5282932872da5bc",
+      "Hash": "c6678fba36c332c5efd649ad2dd8d6c9"
+    }
+  }
+}
