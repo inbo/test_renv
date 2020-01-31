@@ -1,1 +1,5 @@
-source("renv/activate.R")
+if (.Platform$OS.type == "windows") {
+  source("renv/hotfix.R")
+} else {
+  source("renv/activate.R")
+}
