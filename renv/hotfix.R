@@ -19,7 +19,7 @@ local({
     file.path(root, prefix, R.version$platform)
 
   })
-
+  library(utils)
   if (length(find.package("renv", quiet = TRUE)) == 0) {
     install.packages("renv")
   }
